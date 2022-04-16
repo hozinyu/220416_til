@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(233, 235, 241, 1);}
+
+body { position: relative;}
+
+.neumorphism-1 {
+    position: absolute;
+    top: 340px; left: 720px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(233, 235, 241, 1);
+    box-shadow: -24px -24px 55px rgba(255, 255, 255, 0.4), 
+    24px 24px 55px rgba(207, 209, 214, 0.7);
+    border-radius: 100px;
+
+}
+
+.neumorphism-2 {
+    position: absolute;
+    top: 340px; right: 300px;
+    width: 400px; height: 400px;
+    background-color: rgba(233, 235, 241, 1);
+    box-shadow: inset 14px 14px 55px rgba(207, 209, 214, 0.88),
+     inset -24px -24px 55px rgba(255, 255, 255, 0.88);
+    border-radius: 100px;
+}
